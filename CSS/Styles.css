@@ -1,0 +1,209 @@
+body {
+    background-image: url(../Imagenes/Fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.play-videogames {
+    color: #fff;
+    text-align: center;
+    font-size: 70px;
+}
+
+.logo {
+    background-image: url(../Imagenes/esports-logo.png);
+    width: 170px;
+    height: 100px;
+    margin: 15px;
+}
+
+
+.headerRS {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    margin-top: 0;
+    padding: 1em;
+}
+
+
+.social {
+    margin-top: 0px;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+}
+
+.headerRS-fb {
+    background-image: url('../Imagenes/fb.ico');
+}
+
+.headerRS-twitter {
+    background-image: url('../Imagenes/twitter.ico');
+}
+
+.headerRS-instagram {
+    background-image: url('../Imagenes/instagram.ico');
+}
+
+.headerRS-github {
+    background-image: url('../Imagenes/github.ico');
+}
+
+.headerRS-linkedin {
+    background-image: url('../Imagenes/linkedin.ico');
+}
+.footer {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    margin-top: 0;
+    padding: 1em;
+}
+
+
+.social {
+    margin-top: 0px;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+}
+
+.footer-fb {
+    background-image: url('../Imagenes/fb.ico');
+}
+
+.footer-twitter {
+    background-image: url('../Imagenes/twitter.ico');
+}
+
+.footer-instagram {
+    background-image: url('../Imagenes/instagram.ico');
+}
+
+.footer-github {
+    background-image: url('../Imagenes/github.ico');
+}
+
+.footer-linkedin {
+    background-image: url('../Imagenes/linkedin.ico');
+}
+
+form {
+    text-align: center;
+    color: #fff;
+}
+
+.tablita {
+    display: inline-block;
+}
+
+
+.tabla {
+    border-collapse: collapse;
+    font-family: 'Quicksand', sans-serif;
+}
+
+table tr th {
+    border: 1px solid #D5D9D9;
+    width: 200px;
+    height: 25px;
+    color: white;
+    background-color: #00438D;
+}
+
+td {
+    border: 1px solid #D5D9D9;
+    width: 100px;
+    height: 25px;
+}
+
+.caja {
+    display: block;
+}
+
+.caja label {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.caja input {
+    width: 10em;
+    height: 2em;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.submit {
+    width: 8em;
+    height: 2em;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    background-color: #00438D;
+    border: 2px solid white;
+}
+@media screen and (max-width: 1000px) {
+    body {
+        background-image: url(../Imagenes/Fondo.jpg);
+        background-size: cover;
+        width: 90%;
+        justify-content: center;
+    }
+    .play-videogames {
+        text-align: center;
+        font-size: 20px;
+        margin-top: 45px;
+    }
+    .caja {
+        display: inline-block;
+    }
+    .caja input {
+        width: 25em;
+        height: 2em;
+        text-align: center;
+        font-family: 'Quicksand', sans-serif;
+    }
+    .headerRS {
+        display: none;
+    }
+    .social {
+        margin-top: 20px;
+        width: 28px;
+        height: 28px;
+        display: inline-block;
+    }
+}
+@media screen and (min-width: 640px) {
+    body {
+        background-image: url(../Imagenes/Fondo.jpg);
+        background-size: cover;
+        width: 90%;
+        justify-content: center;
+    }
+    .play-videogames {
+        color: #fff;
+        text-align: center;
+        font-size: 90px;
+        margin-top: 200px;
+    }
+    .footer {
+        display: none;
+    }
+    .social {
+        margin-top: 0px;
+        width: 32px;
+        height: 32px;
+        display: inline-block;
+    }
+}
